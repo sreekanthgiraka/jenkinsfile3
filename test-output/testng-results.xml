@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="e-Commerce Website automation suite." duration-ms="57941" started-at="2023-06-27T13:42:14 IST" finished-at="2023-06-27T13:43:12 IST">
+    <groups>
+    </groups>
+    <test name="Login Page Test" duration-ms="5039" started-at="2023-06-27T13:42:14 IST" finished-at="2023-06-27T13:42:19 IST">
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@c81cdd1]" name="setUp" is-config="true" duration-ms="3242" started-at="2023-06-27T13:42:14 IST" finished-at="2023-06-27T13:42:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10fbbdb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@c81cdd1]" name="loginTest" duration-ms="1018" started-at="2023-06-27T13:42:17 IST" finished-at="2023-06-27T13:42:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@c81cdd1]" name="tearDown" is-config="true" duration-ms="731" started-at="2023-06-27T13:42:18 IST" finished-at="2023-06-27T13:42:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.crm.qa.testcases.LoginPageTest.loginTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@c81cdd1] output={null}]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@10fbbdb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+    <test name="Get Product Price" duration-ms="9918" started-at="2023-06-27T13:42:19 IST" finished-at="2023-06-27T13:42:29 IST">
+      <class name="com.crm.qa.testcases.getProductPriceTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.crm.qa.testcases.getProductPriceTest@727803de]" name="setUp" is-config="true" duration-ms="1673" started-at="2023-06-27T13:42:19 IST" finished-at="2023-06-27T13:42:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23f3dbf0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getProductPrice()[pri:0, instance:com.crm.qa.testcases.getProductPriceTest@727803de]" name="getProductPrice" duration-ms="7513" started-at="2023-06-27T13:42:21 IST" finished-at="2023-06-27T13:42:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductPrice -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:com.crm.qa.testcases.getProductPriceTest@727803de]" name="tearDown" is-config="true" duration-ms="727" started-at="2023-06-27T13:42:28 IST" finished-at="2023-06-27T13:42:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.crm.qa.testcases.getProductPriceTest.getProductPrice()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=getProductPrice status=SUCCESS method=getProductPriceTest.getProductPrice()[pri:0, instance:com.crm.qa.testcases.getProductPriceTest@727803de] output={null}]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@23f3dbf0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.getProductPriceTest -->
+    </test> <!-- Get Product Price -->
+    <test name="Remove Product Page" duration-ms="15863" started-at="2023-06-27T13:42:29 IST" finished-at="2023-06-27T13:42:45 IST">
+      <class name="com.crm.qa.testcases.removeProductTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.crm.qa.testcases.removeProductTest@319b92f3]" name="setUp" is-config="true" duration-ms="1644" started-at="2023-06-27T13:42:29 IST" finished-at="2023-06-27T13:42:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31d6f3fe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getProductPrice()[pri:0, instance:com.crm.qa.testcases.removeProductTest@319b92f3]" name="getProductPrice" duration-ms="12082" started-at="2023-06-27T13:42:31 IST" finished-at="2023-06-27T13:42:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductPrice -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:com.crm.qa.testcases.removeProductTest@319b92f3]" name="tearDown" is-config="true" duration-ms="2133" started-at="2023-06-27T13:42:43 IST" finished-at="2023-06-27T13:42:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.crm.qa.testcases.removeProductTest.getProductPrice()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=getProductPrice status=SUCCESS method=removeProductTest.getProductPrice()[pri:0, instance:com.crm.qa.testcases.removeProductTest@319b92f3] output={null}]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@31d6f3fe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.removeProductTest -->
+    </test> <!-- Remove Product Page -->
+    <test name="Order Product Page" duration-ms="26997" started-at="2023-06-27T13:42:45 IST" finished-at="2023-06-27T13:43:12 IST">
+      <class name="com.crm.qa.testcases.OrderProductTest">
+        <test-method status="PASS" signature="initialiseExtentReports()[pri:0, instance:com.crm.qa.testcases.OrderProductTest@5204062d]" name="initialiseExtentReports" is-config="true" duration-ms="348" started-at="2023-06-27T13:42:13 IST" finished-at="2023-06-27T13:42:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseExtentReports -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.crm.qa.testcases.OrderProductTest@5204062d]" name="setUp" is-config="true" duration-ms="2115" started-at="2023-06-27T13:42:45 IST" finished-at="2023-06-27T13:42:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@760cf594]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="orderProduct()[pri:0, instance:com.crm.qa.testcases.OrderProductTest@5204062d]" name="orderProduct" duration-ms="24153" started-at="2023-06-27T13:42:47 IST" finished-at="2023-06-27T13:43:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderProduct -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:com.crm.qa.testcases.OrderProductTest@5204062d]" name="tearDown" is-config="true" duration-ms="721" started-at="2023-06-27T13:43:11 IST" finished-at="2023-06-27T13:43:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.crm.qa.testcases.OrderProductTest.orderProduct() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=orderProduct status=SUCCESS method=OrderProductTest.orderProduct()[pri:0, instance:com.crm.qa.testcases.OrderProductTest@5204062d] output={null}]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@760cf594]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="generateExtentReports()[pri:0, instance:com.crm.qa.testcases.OrderProductTest@5204062d]" name="generateExtentReports" is-config="true" duration-ms="1869" started-at="2023-06-27T13:43:12 IST" finished-at="2023-06-27T13:43:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReports -->
+      </class> <!-- com.crm.qa.testcases.OrderProductTest -->
+    </test> <!-- Order Product Page -->
+  </suite> <!-- e-Commerce Website automation suite. -->
+</testng-results>

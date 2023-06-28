@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Get Product Price(failed)">
+    <parameter name="author" value="Sahithya"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.crm.qa.testcases.getProductPriceTest">
+        <methods>
+          <include name="getProductPrice"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="generateExtentReports"/>
+          <include name="initialiseExtentReports"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.getProductPriceTest -->
+    </classes>
+  </test> <!-- Get Product Price(failed) -->
+</suite> <!-- Failed suite [Suite] -->
